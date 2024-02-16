@@ -13,5 +13,7 @@ map:
   - share:rw
 options:
   message: "Hello world..."
+  hostName: "192.168.1.1"
 schema:
   message: "str?"
+  hostName: "str?"

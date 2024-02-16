@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: N8 Duff Cams Addon Repo
+url: 'https://github.com/NateDuff/N8-HA-Addons'
+maintainer: Nathan Duff <me@nateduff.com>

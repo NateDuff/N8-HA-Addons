@@ -1,3 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-echo "Hello world!"
+MESSAGE=$(bashio::config 'message')
+
+echo "option message \"${MESSAGE}\";"

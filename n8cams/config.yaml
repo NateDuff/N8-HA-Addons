@@ -9,3 +9,9 @@ arch:
   - armhf
   - armv7
   - i386
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"

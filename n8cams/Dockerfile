@@ -1,7 +1,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-COPY main.py /data
+COPY main.py /
+COPY run.sh /
 
 # Install requirements for add-on
 RUN \
@@ -13,8 +14,7 @@ RUN \
 WORKDIR /data
 
 # Copy data for add-on
-COPY run.sh /
 RUN chmod a+x /run.sh
-RUN chmod a+x /data/main.py
+RUN chmod a+x /main.py
 
 CMD [ "/run.sh" ]

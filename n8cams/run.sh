@@ -10,4 +10,4 @@ echo "option hostName \"${HOSTNAME}\";"
 
 ls
 
-python3 main.py
+python3 /main.py

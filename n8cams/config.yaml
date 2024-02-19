@@ -11,6 +11,8 @@ arch:
   - i386
 map:
   - share:rw
+ports:
+  8000/tcp: 8000
 options:
   message: "Hello world..."
   hostName: "192.168.1.1"

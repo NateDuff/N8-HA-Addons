@@ -8,7 +8,7 @@ RUN \
     py3-pip
 
 # Install required Python packages
-RUN pip3 install http.server socketserver
+RUN pip3 install httpserver socketserver
 
 # Python 3 HTTP Server serves the current working dir
 # So let's set it to our add-on persistent data directory.

@@ -11,6 +11,7 @@ RUN \
 WORKDIR /data
 
 # Copy data for add-on
+COPY main.py /
 COPY run.sh /
 RUN chmod a+x /run.sh
 

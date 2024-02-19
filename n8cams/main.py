@@ -7,10 +7,9 @@ class WebRequestHandler(BaseHTTPRequestHandler):
     def get_response(self):
         return json.dumps(
             {
-                "path": self.url.path,
-                "query_data": self.query_data,
-                "post_data": self.post_data.decode("utf-8"),
-                "form_data": self.form_data,
+                "a": 1,
+                "b": 2,
+                "c": 3,
             }
         )
     

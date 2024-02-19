@@ -1,6 +1,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
+COPY main.py /data
+
 # Install requirements for add-on
 RUN \
   apk add --no-cache \
@@ -11,7 +13,6 @@ RUN \
 WORKDIR /data
 
 # Copy data for add-on
-COPY main.py /data
 COPY run.sh /
 RUN chmod a+x /run.sh
 RUN chmod a+x /data/main.py

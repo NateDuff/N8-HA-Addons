@@ -11,6 +11,7 @@ arch:
   - i386
 map:
   - share:rw
+startup: services
 ports:
   8000/tcp: 8000
 options:

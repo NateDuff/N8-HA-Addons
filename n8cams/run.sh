@@ -8,4 +8,6 @@ echo "option hostName \"${HOSTNAME}\";"
 
 #ping -c1 $HOSTNAME
 
+ls
+
 python3 main.py
